@@ -1,5 +1,5 @@
 project: jacob-clemente/bsdiff
-target: bsdiff
+target: bspatch
 
 cmds:
-  - cmd: /bsdiff input output @@
+  - cmd: /bspatch input output @@

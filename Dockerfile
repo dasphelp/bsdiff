@@ -26,5 +26,6 @@ FROM --platform=linux/amd64 ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
 COPY --from=builder /bsdiff/bsdiff /
+COPY --from=builder /bsdiff/bspatch /
 COPY --from=builder /bsdiff/input /
 COPY --from=builder /bsdiff/output /
