@@ -1,4 +1,4 @@
-project: jacob-clemente/bsdiff
+project: bsdiff
 target: bspatch
 
 cmds:
