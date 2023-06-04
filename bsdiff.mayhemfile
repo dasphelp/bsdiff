@@ -1,0 +1,5 @@
+project: bsdiff
+target: bsdiff
+
+cmds:
+  - cmd: /bsdiff input output @@
